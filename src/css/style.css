@@ -3,34 +3,162 @@
     padding: 0;
     margin: 0;
   }
+
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Roboto:wght@300&display=swap');
   
+
   body {
     /* background-color: blue; */
   }
+
+  /*Section4*/
+
+  .container4{
+      display: flex;
+      max-width: 1600px;
+      background-color: gainsboro;
+      height: 670px;
+      justify-content: center;
+      align-items: center;
+
+  }
+
+  .grid{
+      display: grid;
+      background-color: teal;
+      width: 940px;
+      height: 80%;
+
+      grid-template: repeat(8, 1fr) / repeat(12, 1fr);
+  }
+
+  
+  .box1{
+      background-color: violet;
+      grid-area: 1 / 2 / 3 / 4 ;
+  }
+  .box2{
+      background-color: violet;
+      grid-area: 1 / 6 / 3 / 8;
+  }
+  .box3{
+      background-color: violet;
+      grid-area: 1 / 10 / 3 / 12;
+  }
+  .box4{
+      background-color: white;
+      grid-area: 3 / 2 / 4 / 4;
+  }
+  .box5{
+      background-color: white;
+      grid-area: 3 / 6 / 4 / 8;
+  }
+
+  .box6{
+      background-color: white;
+      grid-area: 3 / 10 / 4 / 12;
+  }
+
   
   
   
-  
-  .container{
+  .container5{
   display: flex;
   justify-content: center;
   align-items: center;
   max-width: 1600px;
   height: 670px;
-  background-image: Url("../design-assets/bgk-header.png")
+  background-image: Url("../img/bgk-header.png")
   
+  }
+
+  .column{
+      display: flex;
+      flex-direction: column;
+  }
+
+  .top{
+      display:flex;
+      justify-content: center;
+      
+
+    .headings{
+        display:flex;
+    }
+
+    .headings2{
+        display:flex;
+        justify-content: center;
+    }
+
+  }
+
+  .middle{
+      display: flex;
+
+
+  }
+
+  .bottom{
+      display:flex;
+      justify-content: center;
+
   }
   
   .child{
+    display:flex;
     font-family: Arial, Helvetica, sans-serif;
     color:black;
     border: 2px;
     border-style: solid;
-    background-color: burlywood;
+    background-color:white;
     height: 229px;
     width: 220px;
-    margin: 20px;
-    z-index: 5;
+    margin: 8px;
+
   }
+
+  h1{
+      color:white;
+      font-weight: bold;
+      font-size: 22px;;
+      text-align: center;
+      font-family: 'Playfair Display', serif;
+  }
+  h2{
+      color: white;
+      font-weight: lighter;
+      text-align: center;
+      font-family: 'Playfair Display', serif;
+      margin-bottom: 50px;
+      margin-top: 10px;
+      font-size: 18px;
+  }
+
+  h3{
+      color: #00cccc;
+      text-align: center;
+      font-family: 'Hammersmith One', sans-serif;
+      font-size: 16px;
+      margin-top: 40px;
+      padding: 15px;
+      border-radius: 10px;
+      border: #00cccc solid;
+      border-width: 2px;
+
+  }
+
+  #become{
+      color: white;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+      margin-top: 50px;
+  }
+
+
+    
+
   
   

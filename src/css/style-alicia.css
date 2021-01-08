@@ -1,129 +1,3 @@
-*html {
-    font-size: 14px;
-    letter-spacing: 0px;
-    line-height: 22px;
-    color: #413d4b;
-    font-weight: 300;
-    font-family: "Roboto";
-}
-
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Roboto:wght@300&display=swap');
-/*Section4*/
-
-.container4 {
-    display: flex;
-    max-width: 1600px;
-    background-color: gainsboro;
-    height: 670px;
-    justify-content: center;
-    align-items: center;
-}
-
-.grid {
-    display: grid;
-    background-color: teal;
-    width: 940px;
-    height: 80%;
-    grid-template: repeat(8, 1fr) / repeat(12, 1fr);
-}
-
-.box1 {
-    background-color: violet;
-    grid-area: 1 / 2 / 3 / 4;
-}
-
-.box2 {
-    background-color: violet;
-    grid-area: 1 / 6 / 3 / 8;
-}
-
-.box3 {
-    background-color: violet;
-    grid-area: 1 / 10 / 3 / 12;
-}
-
-.box4 {
-    background-color: white;
-    grid-area: 3 / 2 / 4 / 4;
-}
-
-.box5 {
-    background-color: white;
-    grid-area: 3 / 6 / 4 / 8;
-}
-
-.box6 {
-    background-color: white;
-    grid-area: 3 / 10 / 4 / 12;
-}
-
-.container5 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 1600px;
-    height: 670px;
-    background-image: Url("../img/bgk-header.png")
-}
-
-.column {
-    display: flex;
-    flex-direction: column;
-}
-
-.top {
-    display: flex;
-    justify-content: center;
-}
-
-.headings {
-    display: flex;
-}
-
-.headings2 {
-    display: flex;
-    justify-content: center;
-}
-
-.middle {
-    display: flex;
-}
-
-.bottom {
-    display: flex;
-    justify-content: center;
-}
-
-.child {
-    display: flex;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 1600px;
-    height: 670px;
-    background-image: Url("../design-assets/bgk-header.png")
-}
-
-.child {
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    border: 2px;
-    border-style: solid;
-    background-color: white;
-    height: 229px;
-    width: 220px;
-    margin: 8px;
-}
 
 h1 {
     color: white;
@@ -171,30 +45,6 @@ section {
     justify-content: center;
 }
 
-.img {
-    background-image: url(src/img/bgk-footer.png);
-}
-
-.first-container-row {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    align-content: center;
-    background-color: rgba(255, 255, 255, 0.2);
-    width: 1600px;
-    color: white;
-}
-
-.second-container-column {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    align-content: flex-start;
-    flex-grow: 1;
-    background-color: rgba(20, 45, 92, 0.35);
-}
 
 h1 {
     font-size: 32px;
@@ -204,13 +54,6 @@ h1 {
     font-family: "Playfair Display";
 }
 
-.company-name {
-    font-size: 30px;
-    color: #ffffff;
-    font-weight: 250;
-    font-family: "Roboto";
-    text-align: center;
-}
 
 /* SECTION NR 3 */
 

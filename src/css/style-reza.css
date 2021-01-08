@@ -1,0 +1,58 @@
+
+.container-6 {
+    max-width: 900px;
+    display: flex;
+    flex-direction: row;
+}
+
+.child1 {
+    display: flex;
+    justify-content: stretch;
+    flex: 6;
+}
+
+.form {
+    padding: 10px;
+    flex: 6;
+}
+
+form-row {
+    padding: 10px;
+    display: flex;
+}
+
+.input-sec6 {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    resize: none;
+}
+
+.btn-sec6 {
+    width: 50%;
+}
+
+input, textarea {
+    outline: none;
+    border: 1px solid #ddd;
+}
+
+.child2 {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex: 6;
+}
+
+.child3 {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: stretch;
+    flex-direction: column;
+}

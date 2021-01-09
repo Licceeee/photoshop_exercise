@@ -1,0 +1,503 @@
+﻿﻿Section 4
+
+
+<section class="nr-4rafael">
+
+
+       <div class="xcontainer5">
+         <div class="xcolumn">
+           <div class="xtop">
+             <div class="xheadings">
+                <h1 class="pp">EXPERTISE</h1>
+            
+               <h2 class="pp2">LOREM ipsum dolor sit amet proin gravida nibh vel velit</h2>
+                <div class="hr-line">
+                  
+                 <hr class="line">
+              
+                 </div>
+              </div>
+            </div>
+            <div class="xmiddle">
+             <div class="xchild">
+               <img class="xpic"  src="src/img/png/screen.png" width="50" height="50" alt="screen">
+                 <h2 class="pp2">WEB DESIGN & DEVELOPMENT</h2>
+                 <p>This is Photoshop´s version of Lorem Ipsum.
+                   Proin jisdbcai jdncaijwdc ndcoanw inaocs
+                   auctor aliquir Arenat.
+                 </p>
+             </div>
+             <div class="xchild">
+               <img class="xpic"  src="src/img/png/pen.png" width="50" height="50" alt="screen">
+                 <h2 class="pp2">BRANDING IDENTITY</h2>
+                 <p>This is Photoshop´s version of Lorem Ipsum.
+                   Proin jisdbcai jdncaijwdc ndcoanw inaocs
+                   auctor aliquir Arenat.
+                 </p>
+             </div>
+             <div class="xchild">
+               <img class="xpic"  src="src/img/png/mobile.png" width="50" height="50" alt="screen">
+                 <h2 class="pp2">MOBILE APP</h2>
+                 <p>This is Photoshop´s version of Lorem Ipsum.
+                   Proin jisdbcai jdncaijwdc ndcoanw inaocs
+                   auctor aliquir Arenat.
+                 </p>
+              </div>
+            
+           </div>
+            <div class="bottom1">
+             <div class="xkind">
+               <img class="xpic"  src="src/img/png/graph.png" width="50" height="50" alt="screen">
+                 <h2 class="pp2">WEB DESIGN & DEVELOPMENT</h2>
+                 <p>This is Photoshop´s version of Lorem Ipsum.
+                   Proin jisdbcai jdncaijwdc ndcoanw inaocs
+                   auctor aliquir Arenat.
+                 </p>
+             </div>
+             <div class="xkind">
+               <img class="xpic"  src="src/img/png/gameboy.png" width="50" height="50" alt="screen">
+                 <h2 class="pp2">WEB DESIGN & DEVELOPMENT</h2>
+                 <p>This is Photoshop´s version of Lorem Ipsum.
+                   Proin jisdbcai jdncaijwdc ndcoanw inaocs
+                   auctor aliquir Arenat.
+                 </p>
+             </div>
+             <div class="xkind">
+               <img class="xpic"  src="src/img/png/heart.png" width="50" height="50" alt="screen">
+                 <h2 class="pp2">WEB DESIGN & DEVELOPMENT</h2>
+                 <p>This is Photoshop´s version of Lorem Ipsum.
+                   Proin jisdbcai jdncaijwdc ndcoanw inaocs
+                   auctor aliquir Arenat.
+                 </p>
+             </div>
+            
+           </div>
+            
+           </div>
+ 
+         </div>
+     </div>
+
+
+
+
+
+
+     </section>
+
+
+
+
+
+
+
+
+
+
+section 5
+
+
+<section class="nr-5 rafael">
+
+
+      
+       <div class="container5">
+         <div class="column">
+           <div class="top">
+             <div class="headings">
+
+
+               <h1>MEET OUR AMAZING TEAM</h1>
+            
+               <p class="x">Lorem ipsum dolor sit amet proin gravida vel velit</p>
+
+
+               <div class="hr-line">
+                
+                 <hr class="line">
+              
+                 </div>
+
+
+             </div>
+
+
+           </div>
+
+
+           <div class="middle">
+             <div class="child">
+                 <h2></h2>
+             </div>
+             <div class="child">
+                 <h2></h2>
+             </div>
+             <div class="child">
+                 <h2></h2>
+             </div>
+             <div class="child">
+                 <h2></h2>
+             </div>
+           </div>
+
+
+           <div class="bottom1">
+             <div class="kind">
+               <h2 class="name">ALICIA</h2>
+               <p class="member">MEMBER</p>
+             </div>
+             <div class="kind">
+               <h2 class="name">MUSTAFA</h2>
+               <p class="member">MEMBER</p>
+             </div>
+             <div class="kind">
+               <h2 class="name">RAFAEL</h2>
+               <p class="member">MEMBER</p>
+             </div>
+             <div class="kind">
+               <h2 class="name">REZA</h2>
+               <p class="member">MEMBER</p>
+             </div>
+           </div>
+          
+           <div class="bottom">
+             <div class="headings2">
+
+
+               <p ID="become">Become part of our dream team, let´s join us !</h2>
+               <h3 class="pp3">WE ARE HIRING</h3>
+             </div>
+           </div>
+
+
+
+
+         </div>
+     </div>
+     </section>
+
+
+
+
+
+
+
+
+css
+
+
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+ }
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@100;400;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Roboto:wght@300&display=swap');
+ @import url("https://use.typekit.net/kxz2pbp.css");
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+
+ body {
+   /* background-color: blue; */
+ }
+
+
+ /*Section 4 - MIT Flexbox*/
+
+
+ .xcontainer5{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   max-width: 1600px;
+   height: 800px;
+   background-color:white;
+  
+ }
+
+
+ .hr-line {
+   align-self: center;
+   width: 50px;
+   opacity: 0.5;
+   margin-top: 10px;
+   margin-bottom: 40px;
+}
+
+
+
+
+ .xcolumn{
+   display: flex;
+   flex-direction: column;
+   max-width: 940px;
+
+
+ }
+
+
+ .xtop{
+   display:flex;
+   justify-content: center;
+ }
+
+
+ .xy{
+   color: grey;
+   font-family: 'Playfair Display', serif;
+   font-weight: 100;
+
+
+ }
+
+
+ .xheadings{
+     display:flex;
+     flex-direction: column;
+ }
+
+
+ .xmiddle{
+     display: flex;
+ }
+
+
+ .xbottom1{
+     display: flex;
+ }
+
+
+ .xchild{
+   display:flex;
+   flex-direction: column;
+   font-family: Arial, Helvetica, sans-serif;
+   color: gainsboro;
+   border: 1px;
+   border-style: solid;
+   background-color:white;
+   height: 270px;
+   width: 3120px;
+   padding: 10px;
+   margin-top: 0 px;
+   margin-bottom: 0;
+   margin-left: 0 px;
+   margin-right: 0 px;
+ }
+ .xkind{
+   display:flex;
+   flex-direction: column;
+   font-family: Arial, Helvetica, sans-serif;
+   color:gainsboro;
+   border: 1px;
+   border-style: solid;
+   background-color:white;
+   height: 270px;
+   width: 3120px;
+   padding: 10px;
+   margin-top: 0 px;
+   margin-bottom: 0;
+   margin-left: 0 px;
+   margin-right: 0 px;
+ }
+
+
+ .xpic{
+     display: flex;
+     align-self: center;
+     margin-bottom: 20px;
+     margin-top: 10px;;
+ }
+
+
+ p{
+   color:gray;
+   font-weight: lighter;
+   text-align: center;
+   line-height: 22pt;
+   font-family: 'Roboto', sans-serif;
+   margin-bottom: 50px;
+   margin-top: 10px;
+   font-size: 18px;
+   margin-bottom: 10px;
+ }
+  
+
+
+  
+ /*Section4*/
+
+
+ .nr-4rafael{
+     display: flex;
+     justify-content: center;
+ }
+  .container5{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ max-width: 1600px;
+ height: 670px;
+ background-image: Url("../img/bgk-header.png")
+  }
+
+
+ .column{
+     display: flex;
+     flex-direction: column;
+ }
+
+
+ .top{
+     display:flex;
+     justify-content: center;
+ }
+    
+
+
+   .headings {
+       display:flex;
+       flex-direction: column;
+       justify-content: center;
+   }
+
+
+   .headings2{
+       display:flex;
+       flex-direction: column;
+       justify-content: center;
+   }
+
+
+
+
+ .middle{
+     display: flex;
+
+
+
+
+ }
+ .bottom1{
+     display:flex;
+    
+ }
+ .kind{
+   display:flex;
+   flex-direction: column;
+   font-family: Arial, Helvetica, sans-serif;
+   border-style: solid;
+   border-color: white;
+   border-width: 0.1px;
+   height: 70px;
+   width: 220px;
+   margin-top: 0px;
+   margin-bottom: 8;
+   margin-left: 8px;
+   margin-right: 8px;
+
+
+ }
+
+
+ .name{
+     font-family: 'Roboto', sans-serif;
+     font-weight: bold;
+     color: white;
+     align-self: center;
+     margin:15px 0px 0px 0px;
+
+
+ }
+
+
+ .member{
+   color: white;
+   align-self: center;
+   margin-top: 2px;
+   font-family: myriad-pro, sans-serif;
+   font-weight: lighter;
+ }
+
+
+ .bottom{
+     display:flex;
+     justify-content: center;
+
+
+ }
+  .child{
+   display:flex;
+   font-family: Arial, Helvetica, sans-serif;
+   color:black;
+   border: 0px;
+   border-style: solid;
+   background-color:white;
+   height: 229px;
+   width: 220px;
+   margin-top: 8px;
+   margin-bottom: 0;
+   margin-left: 8px;
+   margin-right: 8px;
+
+
+ }
+
+
+ .pp{
+     color:black;
+     font-weight: bold;
+     font-size: 22px;
+     margin-top: 20px;
+     text-align: center;
+     font-family: 'Playfair Display', serif;
+ }
+
+
+ .pp2{
+     color: black;
+     text-align: center;
+     font-family:font-family: 'Roboto', sans-serif;
+     margin-bottom: 10px;
+     margin-top: 10px;
+     font-size: 14pt;
+     margin-bottom: 10px;
+ }
+
+
+ .x{
+   color: white;
+   font-weight: lighter;
+   text-align: center;
+   font-family: 'Playfair Display', serif;
+   margin-top: 10px;
+   font-size: 14pt;
+   margin-bottom: 10px;
+
+
+ }
+
+
+ .pp3{
+     color: #00cccc;
+     text-align: center;
+     font-family: 'Hammersmith One', sans-serif;
+     font-size: 16px;
+     margin-top: 40px;
+     padding: 15px;
+     border-radius: 4px;
+     border: #00cccc solid;
+     border-width: 2px;
+
+
+ }
+
+
+ #become{
+     color: white;
+     text-align: center;
+     font-family: 'Roboto', sans-serif;
+     font-size: 14px;
+     margin-top: 50px;
+ }

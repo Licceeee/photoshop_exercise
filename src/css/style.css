@@ -46,7 +46,8 @@ Section 4 - MIT Flexbox*/
     justify-content: center;
     align-items: center;
     width: 82%;
-    height: 800px;
+    /* height: 800px; */
+    margin-bottom: 60px;
 }
 
 .h1-5 {
@@ -65,8 +66,10 @@ Section 4 - MIT Flexbox*/
 .xcolumn {
     display: flex;
     flex-direction: column;
-    max-width: 940px;
+    max-width: 82%;
 }
+
+
 
 .xtop {
     display: flex;
@@ -87,10 +90,15 @@ Section 4 - MIT Flexbox*/
 
 .xmiddle {
     display: flex;
+    justify-content: space-between;
 }
 
 .xbottom1 {
     display: flex;
+}
+
+.exp {
+    padding: 30px;
 }
 
 .xchild {
@@ -98,10 +106,10 @@ Section 4 - MIT Flexbox*/
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     color: gainsboro;
-    border-bottom: 1px;
-    border-style: solid;
+    /* border-bottom: 1px;
+    border-style: solid; */
     background-color: white;
-    height: 270px;
+    /* height: 270px; */
     width: 3120px;
     padding: 10px;
     margin-top: 0 px;
@@ -110,7 +118,20 @@ Section 4 - MIT Flexbox*/
     margin-right: 0 px;
 }
 
-.xkind {
+
+.border-bottom {
+    border-bottom: 1px solid rgb(223, 223, 223);
+}
+
+.border-right {
+    border-right: 1px solid rgb(223, 223, 223);
+}
+
+.border-left {
+    border-left: 1px solid rgb(223, 223, 223);
+}
+
+/* .xkind {
     display: flex;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
@@ -125,14 +146,14 @@ Section 4 - MIT Flexbox*/
     margin-bottom: 0;
     margin-left: 0 px;
     margin-right: 0 px;
-}
+} */
 
 .xpic {
     display: flex;
     align-self: center;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    ;
+    margin-top: 20px;
+
+    max-height: 50px;
 }
 
 p {
@@ -291,7 +312,7 @@ p {
     color: black;
     font-weight: bold;
     font-size: 22px;
-    margin-top: 20px;
+    margin-top: 40px;
     text-align: center;
     font-family: 'Playfair Display', serif;
 }
@@ -301,7 +322,7 @@ p {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 14pt;
     margin-bottom: 10px;
 }

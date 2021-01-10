@@ -1,59 +1,9 @@
-
-h1 {
-    color: white;
-    font-weight: bold;
-    font-size: 22px;
-    ;
-    text-align: center;
-    font-family: 'Playfair Display', serif;
-}
-
-h2 {
-    color: white;
-    font-weight: lighter;
-    text-align: center;
-    font-family: 'Playfair Display', serif;
-    margin-bottom: 50px;
-    margin-top: 10px;
-    font-size: 18px;
-}
-
-h3 {
-    color: #00cccc;
-    text-align: center;
-    font-family: 'Hammersmith One', sans-serif;
-    font-size: 16px;
-    margin-top: 40px;
-    padding: 15px;
-    border-radius: 10px;
-    border: #00cccc solid;
-    border-width: 2px;
-}
-
-#become {
-    color: white;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    margin-top: 50px;
-}
-
-section {
+/* section {
     display: flex;
     flex-direction: row;
     background-color: white;
     justify-content: center;
-}
-
-
-h1 {
-    font-size: 32px;
-    letter-spacing: 0px;
-    color: #ffffff;
-    font-weight: 900;
-    font-family: "Playfair Display";
-}
-
+} */
 
 /* SECTION NR 3 */
 
@@ -168,12 +118,13 @@ footer {
     flex-direction: row; */
 }
 
-.logo  {
+.logo {
     display: flex;
     flex-flow: row nowrap;
     /* justify-content: flex-start; */
     align-items: center;
 }
+
 .logo-img {
     width: 60px;
     align-self: flex-start;
@@ -182,14 +133,14 @@ footer {
 .logo-text {
     font-size: 30px;
     font-weight: 100;
-    background: -webkit-linear-gradient(left, rgb(140, 255, 234) , #049d9d);
+    background: -webkit-linear-gradient(left, rgb(140, 255, 234), #049d9d);
     background: -o-linear-gradient(right, rgb(140, 255, 234), #049d9d);
     background: -moz-linear-gradient(right, rgb(140, 255, 234), #049d9d);
-    background: linear-gradient(to right, rgb(140, 255, 234) , #049d9d); 
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
-   align-self: flex-start;
-   padding-top: 10px;
+    background: linear-gradient(to right, rgb(140, 255, 234), #049d9d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    align-self: flex-start;
+    padding-top: 10px;
 }
 
 .second-row {
@@ -210,7 +161,7 @@ footer {
 }
 
 .third-row {
-    padding-top:20px;
+    padding-top: 20px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -241,20 +192,22 @@ footer {
 
 .newsletter-input {
     padding: 15px;
-    background-color:rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
     border: 0.5px solid white;
     color: white;
     margin-right: 10px;
     min-width: 211px;
 }
 
-.newsletter-input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+.newsletter-input::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: white;
-    opacity: 1; /* Firefox */
-  }
+    opacity: 1;
+    /* Firefox */
+}
 
-  .newsletter-btn {
-    width: 70px;      
+.newsletter-btn {
+    width: 70px;
     opacity: 0.5;
 }
 

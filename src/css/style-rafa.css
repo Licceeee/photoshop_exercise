@@ -1,3 +1,125 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Roboto:wght@300&display=swap');
+@import url("https://use.typekit.net/kxz2pbp.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+
+/*Section 4 - MIT Flexbox*/
+
+.xcontainer5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1600px;
+    height: 800px;
+    background-color: white;
+}
+
+.hr-line {
+    align-self: center;
+    width: 50px;
+    opacity: 0.5;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.xcolumn {
+    display: flex;
+    flex-direction: column;
+    max-width: 940px;
+}
+
+.xtop {
+    display: flex;
+    justify-content: center;
+}
+
+.xy {
+    color: grey;
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
+}
+
+.xheadings {
+    display: flex;
+    flex-direction: column;
+}
+
+.xmiddle {
+    display: flex;
+}
+
+.xbottom1 {
+    display: flex;
+}
+
+.xchild {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gainsboro;
+    border: 1px;
+    border-style: solid;
+    background-color: white;
+    height: 270px;
+    width: 3120px;
+    padding: 10px;
+    margin-top: 0 px;
+    margin-bottom: 0;
+    margin-left: 0 px;
+    margin-right: 0 px;
+}
+
+.xkind {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gainsboro;
+    border: 1px;
+    border-style: solid;
+    background-color: white;
+    height: 270px;
+    width: 3120px;
+    padding: 10px;
+    margin-top: 0 px;
+    margin-bottom: 0;
+    margin-left: 0 px;
+    margin-right: 0 px;
+}
+
+.xpic {
+    display: flex;
+    align-self: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    ;
+}
+
+p {
+    color: gray;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 22pt;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/*Section4*/
+
+.nr-4rafael {
+    display: flex;
+    justify-content: center;
+}
+
 .container5 {
     display: flex;
     justify-content: center;
@@ -88,8 +210,8 @@
     margin-right: 8px;
 }
 
-h1 {
-    color: white;
+.pp {
+    color: black;
     font-weight: bold;
     font-size: 22px;
     margin-top: 20px;
@@ -97,12 +219,11 @@ h1 {
     font-family: 'Playfair Display', serif;
 }
 
-h2 {
-    color: white;
-    font-weight: lighter;
+.pp2 {
+    color: black;
     text-align: center;
-    font-family: 'Playfair Display', serif;
-    margin-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
     margin-top: 10px;
     font-size: 14pt;
     margin-bottom: 10px;
@@ -118,7 +239,7 @@ h2 {
     margin-bottom: 10px;
 }
 
-h3 {
+.pp3 {
     color: #00cccc;
     text-align: center;
     font-family: 'Hammersmith One', sans-serif;

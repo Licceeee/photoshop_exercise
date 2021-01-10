@@ -8,7 +8,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Roboto:wght@300&display=swap');
 @import url("https://use.typekit.net/kxz2pbp.css");
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
-/*Section 4 - MIT Flexbox*/
+/*
+
+Section 4 - MIT Flexbox*/
+
 
 .container5 {
     display: flex;
@@ -183,7 +186,6 @@ p {
     justify-content: center;
 }
 
-
 .bottom {
     display: flex;
     justify-content: center;
@@ -214,7 +216,7 @@ p {
     border-style: solid;
     border-color: white;
     border-width: 0.1px;
-    width: 100%;
+    width: 80%;
     height: 300px;
 }
 
@@ -223,11 +225,10 @@ p {
     border-color: white;
     border-width: 0.1px;
     min-height: 70px;
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: column;
 }
-
 
 .name {
     font-family: 'Roboto', sans-serif;
@@ -244,7 +245,6 @@ p {
     font-family: myriad-pro, sans-serif;
     font-weight: lighter;
 }
-
 
 .left-box {
     margin-left: 0;
@@ -327,7 +327,6 @@ p {
     border: #00cccc solid;
     border-width: 2px;
     margin-bottom: 50px;
-
 }
 
 #become {
@@ -421,7 +420,7 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     width: 82%;
     height: 500px;
 }
@@ -430,7 +429,7 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     min-height: 229px;
-    max-width: 400px;
+    max-width: 350px;
     margin: 10px;
     padding: 10px;
     display: flex;
@@ -555,4 +554,120 @@ footer {
 
 .placeholder {
     visibility: hidden;
+}
+
+/* REZA */
+
+.container6 {
+    display: flex;
+    max-width: 960px;
+    max-height: 685px;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.form-part {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 685px;
+    flex-direction: column;
+}
+
+.form-part h2 {
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: #413d4b;
+    font-weight: 700px;
+    font-family: "Playfair Display";
+    padding-bottom: 1rem;
+}
+
+.form input, form textarea {
+    border: 1px solid rgb(187, 187, 187);
+    padding: 1em 0 1em 1em;
+    margin-bottom: 1.3em;
+    border-radius: 2px;
+    color: darkgrey;
+}
+
+.form input::placeholder, .form textarea::placeholder {
+    font-family: "roboto", "sans-serif";
+    color: darkgrey;
+    opacity: 0.8;
+}
+
+.form input {
+    width: 100%;
+}
+
+.form textarea {
+    width: 100%;
+}
+
+.form textarea {
+    resize: none;
+}
+
+.form button {
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #00e0d0;
+    font-family: "HammersmithOne";
+    text-align: center;
+    background-color: white;
+    border-color: #00cccc;
+}
+
+.main-reza {
+    max-width: 400px;
+    max-height: 500px;
+    display: grid;
+    margin-top: -140px;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+    justify-items: start;
+    grid-template-areas: "box1 box1 box1" "box2 box3 box4";
+}
+
+
+
+.happy-client {
+    grid-area: box1;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #413d4b;
+    font-family: 'Times New Roman', Times, serif;
+    align-self: end;
+    width: 330px;
+    height: 50px;
+}
+
+.logo-left-part {
+    grid-area: box2;
+    display: grid;
+    grid-template-columns: 133px;
+    grid-row-gap: 40px;
+}
+
+.logo-left-part img {
+    width: 90%;
+}
+
+.empty {
+    grid-area: box3;
+    width: 133px;
+}
+
+.logo-right-part {
+    grid-area: box4;
+    display: grid;
+    grid-template-columns: 133px;
+    grid-row-gap: 40px;
+}
+
+.logo-right-part img {
+    width: 90%;
 }

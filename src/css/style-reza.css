@@ -1,58 +1,126 @@
-
-.container-6 {
-    max-width: 900px;
+.container6{
     display: flex;
-    flex-direction: row;
-}
-
-.child1 {
-    display: flex;
-    justify-content: stretch;
-    flex: 6;
-}
-
-.form {
-    padding: 10px;
-    flex: 6;
-}
-
-form-row {
-    padding: 10px;
-    display: flex;
-}
-
-.input-sec6 {
-    width: 100%;
-}
-
-textarea {
-    width: 100%;
-    height: 200px;
-    resize: none;
-}
-
-.btn-sec6 {
-    width: 50%;
-}
-
-input, textarea {
-    outline: none;
-    border: 1px solid #ddd;
-}
-
-.child2 {
-    max-width: 900px;
+    max-width: 960px;
+    max-height: 685px;
+    align-items: center;
+    justify-content: space-around; 
     margin: 0 auto;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    flex: 6;
-}
-
-.child3 {
-    max-width: 900px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: stretch;
-    flex-direction: column;
-}
+   }
+ 
+   .form-part{
+     display: flex;
+     justify-content: center;
+     width: 400px;
+     height: 685px;
+     border: 1px solid red; 
+     flex-direction: column;
+   }
+     
+     .form-part h2{
+       font-size: 22px;
+       letter-spacing: 1px;
+       color: #413d4b;
+       font-weight: 700px;
+       font-family: "Playfair Display";
+       padding-bottom: 1rem;
+     }
+ 
+     .form input, form textarea{
+     border: 1px solid gray;
+     padding: 1em 0 1em 1em;   
+     margin-bottom: 1.3em;   
+     border-radius: 2px;
+     color: darkgrey;
+     }
+ 
+   
+ 
+     .form input::placeholder, 
+     .form textarea::placeholder{
+     font-family: "roboto", "sans-serif";
+     color: darkgrey;
+     opacity: 0.8;
+     
+     }
+ 
+     .form input{
+       width: 100%;
+     }
+ 
+     .form textarea {
+       width: 100%;
+     }
+ 
+     .form textarea{
+       resize: none;
+     }
+ 
+     .form button {
+       width: 120px;
+       height: 40px;
+       font-size: 16px;
+       color: #00e0d0;
+       font-family: "HammersmithOne";
+       text-align: center;
+     }
+ 
+     main-reza {
+         max-width: 400px;
+         max-height: 500px;
+         display: grid;
+         margin-top: -140px;
+         grid-template-columns: 1fr 1fr 1fr;
+         grid-template-rows: 1fr 1fr;
+         justify-items: start;
+         grid-template-areas: 
+         "box1 box1 box1"
+         "box2 box3 box4";
+     }
+    
+ 
+      .happy-client{
+        grid-area: box1;
+        font-size: 15px;
+        letter-spacing: 1px;
+        color: #413d4b;
+        font-family: 'Times New Roman', Times, serif;
+        align-self: end;
+        width: 330px;
+        height: 50px;
+          
+      }
+ 
+ 
+      .logo-left-part{
+       grid-area: box2;
+       display: grid;
+       grid-template-columns: 133px;
+       grid-row-gap: 40px;
+          
+     }
+ 
+ 
+ 
+     .logo-left-part img{
+       width: 90%;
+     }
+ 
+      .empty{
+       grid-area: box3;
+       width: 133px;
+       
+     }
+ 
+      .logo-right-part{
+        grid-area: box4;
+        display: grid; 
+       grid-template-columns: 133px;
+       grid-row-gap: 40px;
+          
+      }
+ 
+ 
+      .logo-right-part img{
+        width: 90%;
+      }
+ 
